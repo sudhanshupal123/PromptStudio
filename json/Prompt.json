@@ -1,0 +1,352 @@
+{
+    "G01": [
+        {
+            "Image": "Gemini_image_1.png",
+            "CardNo": "G#01.01",
+            "PromptText": "EXTREME CLOSE-UP PORTRAIT OF THE MAN FROM UPLOAD IMAGE, MAINTAINING HIS EXACT POSE: HEAD SLIGHTLY TILTED BACK AND TURNED TO THE RIGHT, WITH HIS GAZE DIRECTED STRAIGHT AT THE VIEWER. HE HAS DARK. THE SCENE IS DRAMATICALLY LIT WITH STRONG RED LIGHT ACROSS THE LEFT SIDE OF HIS FACE, NECK, AND SHOULDER, CREATING SHARP SHADOWS. THE RIGHT SIDE OF HIS FACE AND HAIR IS STEEPED IN DEEP CYAN LIGHT AND SHADOW. HE WEARS A DARK CREW-NECK SHIRT. THE BACKGROUND IS A TEXTURED RED WALL. QUALITY 8K SIZE 4:5 RATIO IMAGE GENERATE"
+        },
+        {
+            "Image": "Gemini_image_1.1.png",
+            "CardNo": "G#01.02",
+            "PromptText": "A powerful, highly detailed, photorealistic editorial portrait taken from a dynamic low-angle perspective of a young man against a vibrant solid red-orange background. It uses high-contrast studio lighting dominated by bright red and deep orange tones, with a confident and intense expression as he looks upward. He is wearing dark blue jacket. Directional lighting creates deep shadows, enhancing a mysterious and intense mood, with dramatic rim lighting that highlights the silhouette and separates him from the bold background. The composition is a medium close-up from a low angle, focused on the face and shoulders, featuring sharp details and smooth cinematic color gradients. Aspect ratio 4:5."
+        },
+        {
+            "Image": "Gemini_image_1.2.png",
+            "CardNo": "G#01.03",
+            "PromptText": "match 100% face,Ultra-realistic cinematic portrait of a stylish young Indian man standing confidently in a dark studio environment, wearing a luxurious suit fully covered with glowing, colorful butterfly patterns. The suit shimmers with neon shades of black, purple, and red, giving a magical illuminated effect. He is holding a glowing butterfly on his fingertip while looking slightly upward with a confident expression. Surrounding him are dozens of floating luminous butterflies in various colors, creating a dreamy fantasy atmosphere. beautifully formed using glowing butterflies, arranged in large bold letters. Deep black background with soft spotlight lighting, high contrast, volumetric glow, ultra-detailed textures, sharp focus, 8K resolution, cinematic lighting, fantasy surreal style, professional fashion photography. remove background name butterfly and recreate this prompt same."
+        },
+        {
+            "Image": "Gemini_image_1.3.png",
+            "CardNo": "G#01.04",
+            "PromptText": "USE 100% FACE ABOVE UPLOADED PHOTO, Transform the uploaded photo into a 10mn ultra-wide fisheye portrait. Use a dramatic top-down camera angle with strong perspective distortion, The head appearing larger and the body more compressed. Add round black sunglasses, with the left hand adjusting the glasses, and a confident upward gaze. Clothing : white and black long coat, white jeans, black shoes. Background: bold red studio backdrop with a smooth gradient. 8k ultra HD High contrast with sharp editorial lighting detailed resolution."
+        },
+        {
+            "Image": "Gemini_image_1.4.png",
+            "CardNo": "G#01.04",
+            "PromptText": "Convert this image into A dramatic, stylized portrait (use same face as the uploaded photo), 4:5 aspect ratio, featuring a dark, almost silhouetted figure in profile looking to the Right. The figure has an intense, rugged look with voluminous wavy and slightly tousled well set hair, energetic hair. The background is a vibrant, solid Red. Dynamic, expressive black and Red brushstrokes or abstract splatter emanate from around the figure's head and shoulders, blending into the Red background."
+        }
+    ],
+    "G02": [
+        {
+            "Image": "Gemini_image-2.png",
+            "CardNo": "G#02.01",
+            "PromptText": "EXTREME CLOSE-UP PORTRAIT OF THE MAN FROM UPLOAD IMAGE, MAINTAINING HIS EXACT POSE: HEAD SLIGHTLY TILTED BACK AND TURNED TO THE RIGHT, WITH HIS GAZE DIRECTED STRAIGHT AT THE VIEWER. HE HAS DARK. THE SCENE IS DRAMATICALLY LIT WITH STRONG RED LIGHT ACROSS THE LEFT SIDE OF HIS FACE, NECK, AND SHOULDER, CREATING SHARP SHADOWS. THE RIGHT SIDE OF HIS FACE AND HAIR IS STEEPED IN DEEP CYAN LIGHT AND SHADOW. HE WEARS A DARK CREW-NECK SHIRT. THE BACKGROUND IS A TEXTURED RED WALL. QUALITY 8K SIZE 4 5 RATIO IMAGE GENERATE."
+        },
+        {
+            "Image": "Gemini_image-2.1.png",
+            "CardNo": "G#02.02",
+            "PromptText": "A HIGH-CONTRAST, BLACK AND WHITE CINEMATIC CLOSE-UP PORTRAIT OF A YOUNG MAN WITH GLASESS, SITTING IN A PITCH-BLACK ROOM. HE IS CAPTURED FROM THE CHEST UP, LEANING FORWARD WITH HIS ARMS CROSSED, ONE HAND RESTING ON HIS FOREARM SHOWING A LUXURY WRISTWATCH. THE SCENE IS ILLUMINATED SOLELY BY SHARP, DRAMATIC LIGHT PASSING THROUGH WINDOW BLINDS, CASTING A RHYTHMIC PATTERN OF HORIZONTAL LIGHT AND DARK SLAT SHADOWS ACROSS HIS FACE AND BODY. THE MAN IS LOOKING OFF-CAMERA WITH A SUBTLE, THOUGHTFUL SMILE. THE BACKGROUND IS PURE, DEEP SHADOW WITH NO VISIBLE DETAILS. SHARP FOCUS ON THE EYES AND FACIAL TEXTURES, FILM NOIR AESTHETIC, 8K RESOLUTION, MOODY ATMOSPHERE. AR 4:5"
+        },
+        {
+            "Image": "Gemini_image_2.2.png",
+            "CardNo": "G#02.03",
+            "PromptText": "PREDOMINANTLY MONOCHROMATIC PALETTE (BLACK, GRAY, AND WHITE) WITH SUBTLE NEON PINK ACCENTS FOR PREMIUM VISUAL CONTRAST. SOFT, DIRECTIONAL LIGHTING WITH A SHARP RIM LIGHT ON THE FACE AND METALLIC HIGHLIGHTS ON THE HEADPHONES. EXTREMELY REALISTIC SKIN TEXTURE: VISIBLE PORES, MICRO-IMPERFECTIONS, A SLIGHT NATURAL GLOW, AND HAIR WITH INDIVIDUALIZED STRANDS IN ORGANIC MOTION. ELEGANT COMPOSITION WITH A FUTURISTIC MUSIC EDITORIAL POSTER OR ALBUM COVER AESTHETIC. ATMOSPHERE: FUTURISTIC, ARTISTIC, TECHNOLOGICAL, EMOTIONAL, AND SENSORY; PREMIUM AUDIO BRAND ADVERTISING CAMPAIGN STYLE. ASPECT RATIO 4:5. MAXIMUM QUALITY, NO DISTORTIONS, NO ARTIFACTS, NO ILLUSTRATIVE LOOK. PURE EXTREME PHOTOGRAPHIC REALISM WITH CINEMATIC VISUAL STORYTELLING."
+        },
+        {
+            "Image": "Gemini_image_2.3.png",
+            "CardNo": "G#02.04",
+            "PromptText": "USE 100% FACE ABOVE UPLOADED PHOTO,A high-end, cinematic black and white studio portrait of a 20 year young man with a sharp, groomed hairstyle, sitting in a thoughtful, composed pose. He is looking directly into the camera with an intense, steady gaze, his chin resting gently on one hand. He is wearing a crisp, fitted black button-down shirt. On his wrist, a detailed luxury Rolax watch with a prominent bezel is visible. His other hand rests flat on a surface in the foreground, adorned with a sleek, minimalist metallic black riben. The lighting is dramatic and moody, utilizing 'dark night' chiaroscuro lighting-deep shadows on the side of the face and subtle highlights that accentuate his facial features and the texture of his shirt. The background is a clean, dark, textured charcoal studio backdrop. Captured with an 85mm lens for a flattering portrait compression, sharp focus on the eyes, shallow depth of field, hyper-realistic, editorial photography style, 4:5 aspect ratio."
+        },
+        {
+            "Image": "Gemini_image_2.4.png",
+            "CardNo": "G#02.05",
+            "PromptText": "High-fashion portrait of the young man from the provided face refer- ence standing under a streetlight in a foggy alley at midnight. He wears a long black coat, layered street- wear, black sunglasses, hands in pock-ets, stoic expression. Wet pavement reflects the light, smoke drifting behind him, noir shadows, sharp jaw- line emphasis, fine grain photography, premium editorial magazine style, ul- tra-realistic textures, dramatic black-and-white aesthetic, 8K resolu- tion, aspect ratio 3:4."
+        }
+    ],
+    "G03": [
+        {
+            "Image": "Gemini_image_3.2.png",
+            "CardNo": "G#03.01",
+            "PromptText": "Ultra-realistic cinematic full-body portrait of a man floating slightly above the ground, side profile view (left-facing), body upright with relaxed posture, head tilted slightly upward as if looking toward the sky, calm and powerful expression. Maintain the same body angle and pose as reference image. Wearing a fitted dark button-up shirt (deep charcoal or black, matte fabric, sleeves full), paired with dark slim-fit pants and casual boots. Natural clothing folds and realistic fabric texture. The right side of the body gradually disintegrating into glowing particles and fragments, breaking apart into small debris and ember-like sparks, scattering outward in mid-air. The disintegration effect should blend smoothly from solid body to particles. From above, multiple vertical golden-orange light beams descending from the sky, hitting the subject's head and upper body, creating a dramatic energy impact. Light rays slightly volumetric with soft glow. Lighting: warm sunset lighting mixed with strong golden highlights from above, soft shadows, cinematic contrast. Glowing embers illuminating parts of the body. Background: minimal open landscape with a blurred horizon, calm ground surface, soft gradient sky (light blue to warm orange tones), shallow depth of field for strong subject focus. Particles: floating dust, sparks, glowing fragments, dynamic motion for cinematic feel. Camera: full-body shot, slightly low angle, 85mm lens look, shallow depth of field, subject in sharp focus. Color grading: warm orange and teal cinematic tones, high contrast, filmic look. Resolution: 8K, ultra-detailed, HDR, photorealistic Aspect ratio: 9:16."
+        },
+        {
+            "Image": "Gemini_image_3.1.png",
+            "CardNo": "G#03.02",
+            "PromptText": "Create a realistic surreal photographic portrait of a man standing with both arms slowly extending outward to his sides, head tilted back with eyes closed as if absorbing power from above. He is wearing dark burgundy silk shirt partially open at the chest. A massive dark phoenix with deep red and black feathers is emerging from behind him, wings fully spread and engulfing the entire frame, with glowing ember eyes and feathers dissolving into red smoke at the tips. Wisps of red and black smoke curl around the man's body. The background is deep black fading to purple. Photorealistic, dramatic, surreal, and cinematic with glowing light detail. • no text, no watermark, no borders photorealistic, 4K, hyper-detailed • photorealistic, hyper-detailed feathers, National Geographic quality sharp facial features, studio lighting on face, cinematic portrait."
+        },
+        {
+            "Image": "Gemini_image-3.png",
+            "CardNo": "G#03.03",
+            "PromptText": "A cinematic dark fantasy portrait of a young man sitting on an ornate gothic throne, wearing a black coat, calm and confident expression, holding a floating human skull in his hand, the skull surrounded by glowing red energy, red smoke and ember particles floating in the air, dark forest background with soft blur, dramatic cinematic lighting with red highlights, ultra realistic skin texture, highly detailed skull, sharp focus, depth of field, volumetric fog, epic composition, 8K resolution, hyper detailed, cinematic color grading, moody atmosphere, professional photography style."
+        },
+        {
+            "Image": "Gemini_image_3.3.png",
+            "CardNo": "G#03.04",
+            "PromptText": "A cinematic portrait of a young man sitting on an ornate dark throne, wearing a black coat, calm and confident expression, holding out his hand as a majestic eagle with glowing red wings lands on it, dramatic red smoke and particles surrounding them, dark fantasy atmosphere, fiery glow lighting from the side, ultra realistic skin texture, detailed feathers, intense shadows, depth of field, volumetric lighting, epic composition, 8K resolution, hyper detailed, sharp focus, cinematic color grading, moody background, professional photography style."
+        },
+        {
+            "Image": "Gemini_image_3.4.png",
+            "CardNo": "G#03.05",
+            "PromptText": "A young man slowly descending into the deep ocean abyss, surrounded by bioluminescent jellyfish and glowing marine life, wearing a flowing black long coat that drifts dramatically in the water, dark trousers and boots, body suspended mid-water as if weightless, cinematic composition, side profile with a mysterious and calm expression, soft light rays filtering from above, deep teal and blue color palette, volumetric lighting, particles and bubbles floating around, ultra-realistic textures, sharp facial details, high contrast between darkness and glowing elements, film still aesthetic, dramatic shadows, depth of field, 4K ultra HD, hyper-detailed, moody atmosphere, underwater fantasy realism, professional color grading Negative Prompt : blurry, low resolution, distorted face, extra limbs, bad anatomy, overexposed, noisy, grainy, cartoonish, oversaturated, watermark, text, logo."
+        },
+        {
+            "Image": "Gemini_image_3.5.png",
+            "CardNo": "G#03.06",
+            "PromptText": "ULTRA-DETAILED CINEMATIC PORTRAIT OF A POWERFUL MAN WITH INTENSE EXPRESSION, DARK SKIN ILLUMINATED BY GLOWING MOLTEN LAVA CRACKS RUNNING ACROSS HALF OF HIS FACE AND EYE. FIERY RED ENERGY VEINS PULSE LIKE MAGMA BENEATH HIS SKIN, EMITTING SPARKS AND EMBERS. ONE EYE GLOWS WITH A SUPERNATURAL RED LIGHT, SYMBOLIZING INNER POWER AND RAGE. LONG TEXTURED DREADLOCKS FRAME HIS FACE, PARTIALLY IN SHADOW. HYPER-REALISTIC SKIN TEXTURE WITH DRAMATIC CONTRAST BETWEEN COOL DARK TONES AND HOT VOLCANIC GLOW. DARK MOODY BACKGROUND, SHALLOW DEPTH OF FIELD, DRAMATIC LIGHTING, HIGH CONTRAST, EPIC FANTASY SCI-FI AESTHETIC, PHOTOREALISTIC, 8K, ULTRA SHARP, CINEMATIC POSTER STYLE, DARK FANTASY, CYBER-MYTHIC WARRIOR VIBE."
+        },
+        {
+            "Image": "Gemini_image_3.6.png",
+            "CardNo": "G#03.07",
+            "PromptText": "Ultra-realistic 8K fantasy cinematic portrait of a stylish young man sitting on a moss-covered rock in a glowing magical forest, surrounded by vibrant neon-colored plants and flowers, soft green-blue lighting with bioluminescent effects, wearing a colorful floral sweatshirt, blue jeans and sneakers, holding a glowing red electric flower emitting sparks and energy, detailed textures, shallow depth of field, dreamy atmosphere, behind him a Black and white Lion forest creature with red eyes peeking from behind a tree, mystical jungle vibe, high detail, photorealistic, vibrant color grading. Aspect ratio 4:5."
+        }
+    ],
+    "G04": [
+        {
+            "Image": "Gemini_image_4.png",
+            "CardNo": "G#04.01",
+            "PromptText": "Ultra-realistic cinematic cyberpunk portrait of a young man, centered close-up shot, front-facing symmetrical composition, head slightly tilted forward, neutral expression with slightly parted lips. Maintain same body posture and angle as reference image. Wearing a plain dark t-shirt (matte black fabric, minimal texture). Futuristic holographic UI elements floating around the face(transparent blue and red HUD panels, warning alerts, system notifications, digital data streams), high-tech augmented reality interface surrounding the head. One eye glowing bright red like a cybernetic implant, the other natural and realistic. Skin covered with subtle moisture droplets and tiny glowing particles, hyper-detailed pores and texture. Ambient particles floating in air, creating depth and cinematic atmosphere. Lighting: moody low-key lighting with teal-blue shadows and contrasting red neon highlights, soft rim light around face, dramatic cyberpunk glow reflecting on skin. Background: dark blurred digital environment filled with holographic screens, bokeh lights, and floating UI graphics, maintaining depth of field and cinematic focus. Camera: ultra close-up portrait, shallow depth of field, 85mm lens, f/1.4, sharp focus on face. Color grading: teal and red cyberpunk palette, high contrast, cinematic tone. Resolution: 8K, ultra-detailed, HDR, photorealistic, sharp focus Aspect ratio: 9:16."
+        },
+        {
+            "Image": "Gemini_image_4.1.png",
+            "CardNo": "G#04.02",
+            "PromptText": "Use my reference photo as the subject (same face/likeness). Photorealistic cinematic portrait: I am stand ground, leaning against a cracked concre- te wall, wearing a battle-damaged red-gold sci-fi armored suit (Iron Man-ins- pired), tired but strong expression. Dust, debris, realistic metal scratches, soft dramatic lighting, high detail. Keep the exact pose/composition style. No text, no watermark, no extra people."
+        },
+        {
+            "Image": "Gemini_image_4.5.png",
+            "CardNo": "G#04.03",
+            "PromptText": "Ultra-realistic 8K cinematic romantic portrait of a young couple sitting together in a grassy field. Subjects: man sitting behind the woman, gently hugging her from behind, relaxed posture, wearing a light shirt and jeans. woman sitting in front, wearing a soft floral light-colored dress, natural makeup, gentle smile, looking slightly."
+        },
+        {
+            "Image": "Gemini_image_4.6.png",
+            "CardNo": "G#04.04",
+            "PromptText": "Hyper-realistic cinematic night shot of a beautiful young woman sitting on a dark sandy beach. She is wearing an elegant lite brown puff-sleeve tulle dress. In the background, the ocean waves are also glowing with soft blue bioluminescence under a starry night sky.add a young men.men outfit a oversized white shirt and black baggy Jean's, hug and attitude style."
+        }
+    ],
+    "G05": [
+        {
+            "Image": "Gemini_image_5.png",
+            "CardNo": "G#05.01",
+            "PromptText": "Create a cinematic hybrid real-life + anime group scene from a high top-down camera angle, matching the same road background, framing, and composition as the reference image Keep the central real boy EXACT SAME (same face, same hair,sunglasses,jacket, no changes at all, ultra-realistic). Replace the bottom-right anime girl with Naruto Uzumaki (wearing his iconic orange-black outfit, confident expression, looking upward). Replace Sukuna (top-right) with Goku (Dragon Ball Z main character) in a powerful stance, glowing aura (Super Saiyan energy or base aura, cinematic lighting). Replace the anime character below Gojo (bottom-left) with Optimus Prime (Transformers) standing in humanoid scale, slightly crouched to fit perspective, metallic reflections, realistic integration. Replace the anime character below Sukuna (middle-right) with Eren Yeager (Attack on Titan main character) in Survey Corps outfit, intense expression looking upwards. STYLE & DETAILS Ultra-realistic + anime hybrid style Cinematic lighting (blue aura on left side, red/orange aura on right sidel- Perfect depth, shadows, reflections on road 8K, ultra-detailed, sharp focus Slight film grain, dramatic mood Maintain exact group formation and spacing Characters looking up toward camera Realistic blending between anime + real world No distortion, no face changes to the real person IMPORTANT RULES DO NOT change central boy face or pose Maintain exact composition Keep perspective consistent (top-down) Match lighting direction and shadows."
+        }
+    ],
+    "G06": [
+        {
+            "Image": "Gemini_image_6.png",
+            "CardNo": "G#06.01",
+            "PromptText": "Photorealistic cinematic portrait of a young man, [Uploaded Photo], exact face preserved, strong jawline. Wearing dark red-black urban clothing, oversized black hoodie, loose dark pants, black sneakers, black sunglasses. Pose: head raised, dominant posture, squared shoulders, one hand near the pocket, the other clenched. Supernatural: a huge red-black smoke demon behind him, glowing red eyes above his head ultra-realistic smoke wrapping around shoulders and arms. Environment: dark, minimalist interior wall, concrete floor. Lighting: dramatic low-key lighting, soft frontal light, red rim light,deep shadows. Technology: 8K, 3:4, 35mm, hyper-realistic."
+        },
+        {
+            "Image": "Gemini_image_6.1.png",
+            "CardNo": "G#06.02",
+            "PromptText": "A cinematic dark fantasy portrait of a young man sitting on an ornate gothic throne, wearing a black coat, calm and confident expression, holding a floating human skull in his hand, the skull surrounded by glowing red energy, red smoke and ember particles floating in the air, dark forest background with soft blur, dramatic cinematic lighting with red highlights, ultra realistic skin texture, highly detailed skull, sharp focus, depth of field, volumetric fog, epic composition, 8K resolution, hyper detailed, cinematic color grading, moody atmosphere, professional photography style."
+        },
+        {
+            "Image": "Gemini_image_6.2.png",
+            "CardNo": "G#06.03",
+            "PromptText": "Ultra-realistic cinematic portrait of a young man (use exact face), sitting on a rough throne (game of thrones) in a barren rocky field, legs slightly apart, one arm resting on knee, head tilted slightly down, dominant and fearless expression. Outfit: heavy black oversized parka layered over dark outfit, combat boots. Beside him: Dragon sitting calmly like a guardian, glowing eyes. Environment: dark cloudy sky, fog rolling around ground, desaturated tones. Lighting: strong cinematic top light + rim light, deep shadows. Camera: low-angle hero shot, 50mm lens, shallow depth of field. Style: dark royalty aesthetic, ultra-realistic, HDR, 4K cinematic.low quality, blurry, distorted face, bad anatomy, extra limbs, oversharpened, cartoon, unrealistic skin, text, watermark, logo, bright colors, cheerful mood."
+        },
+        {
+            "Image": "Gemini_image_6.3.png",
+            "CardNo": "G#06.04",
+            "PromptText": "THE UPLOADED MAN'S IDENTITY IS FULLY PRESERVED IN AN ULTRA-CINEMATIC CLOSE-UP PORTRAIT. HE WEARS A BLACK SUIT. BEHIND HIS RIGHT SHOULDER, THE FACE OF A MASSIVE BLACK WOLF IS VISIBLE UP CLOSE, ITS RED GLOWING EYES PIERCING, ITS SHARP TEETH VISIBLE. DARK STUDIO BACKGROUND, DRAMATIC SPOTLIGHT, INTENSE SHADOWS, HYPER-REALISTIC SKIN AND FUR TEXTURE, CINEMATIC ATMOSPHERE, BEHIND HIS LEFT SHOULDER, THE FACE OF A MASSIVE BLACK LION IS VISIBLE UP CLOSE, ITS GOLDEN GLOWING EYES PIERCING, ITS SHARP TEETH VISIBLE. DARK STUDIO BACKGROUND, DRAMATIC SPOTLIGHT, INTENSE SHADOWS, HYPER-REALISTIC SKIN AND FUR TEXTURE, CINEMATIC ATMOSPHERE, 4k."
+        },
+        {
+            "Image": "Gemini_image_6.4.png",
+            "CardNo": "G#06.05",
+            "PromptText": "The ultra-realistic cinematic portrait of the man in the reference image, preserving his features, geometry, and expression precisely, shows him sitting confidently in a dark chair; he wears a black suit, black shirt. His hand is raised near his face, a gold ring are noticeable. The lighting is the main focus: a strong, harsh red edge light strikes Only from the left, creating a sharp red edge accent across his face, shoulder, and suit. The right side is shrouded in deep shadows with minimal soft fill light. Directly behind him, a massive and majestic Dark black lion with glowing red eyes and visible sharp teeth stands with a powerful, protective presence, looking extremely regal cammera, intimidating, and cinematic. The background is a slightly foggy desert in night light . Processed with Sony AI, an 85mm f.4 lens at f.6, ISO 100, it displays hyper-realistic skin texture, detailed lion fur, and cinematic editorial color grading. 4K resolution, superior clarity."
+        }
+    ],
+    "G07": [
+        {
+            "Image": "Gemini_image_7.1.png",
+            "CardNo": "G#07.01",
+            "PromptText": "Use the uploaded picture as a reference Strict identity lock, the face must match the attached reference photo exactly, preserving facial structure, skin tone, expression, and hairstyle (same haircut and hair texture) to create an ultra-realistic cinematic double exposure portrait of me in a clean left-facing side profile, sharp jawline and natural facial structure clearly defined. The outer silhouette is dark and well-contoured against a soft warm beige sunset background. Inside the silhouette, seamlessly blend a dramatic urban street scene at golden hour: a lone me walking forward in the center of an empty destroyed city road, symmetrical perspective lines, damaged buildings on both sides, broken debris scattered along sidewalks, electric poles and cables stretching into the distance. The sun positioned directly at the horizon behind the walking figure, creating strong backlight glow and long stretched shadow toward the camera. Warm orange sunlight flooding through the internal city scene, high contrast, cinematic depth, realistic textures, smooth blending edges between portrait and environment. Moody yet hopeful atmosphere, 8K resolution, sharp detail, soft vignette."
+        },
+        {
+            "Image": "Gemini_image_7.png",
+            "CardNo": "G#07.02",
+            "PromptText": "Abstract photography, double exposure of nature and man, blue to black gradient, soul like blurry edge silhouette in a high-end fashion clothing, editorial, Fuji xt5, on Fuji classic chrome 35mm film, sleek and minimal --ar 4:5."
+        }
+    ],
+    "G08": [
+        {
+            "Image": "Gemini_image_8.png",
+            "CardNo": "G#08.01",
+            "PromptText": "Abstract photography, double exposure of nature and man, blue to black gradient, soul like blurry edge silhouette in a high-end fashion clothing, editorial, Fuji xt5, on Fuji classic chrome 35mm film, sleek and minimal --ar 4:5."
+        },
+        {
+            "Image": "Gemini_image_8.1.png",
+            "CardNo": "G#08.02",
+            "PromptText": "A stylish young man with a well-groomed beard and short, voluminous black hair stands casually leaning against the front of a black Ford pickup truck. He is wearing a plain white fitted t-shirt, blue jeans, black lace-up boots, a wristwatch, and dark sunglasses. His posture is relaxed, with one leg crossed over the other and one hand in his pocket, while the other rests lightly on the truck. He is looking off to the side with a confident, calm expression. The truck has a bold, rugged design with large off-road tires and a prominent grille. The background features a modern gray building wall with a large, minimalistic palm tree design embedded or sculpted into it. The lighting is soft and natural, giving a clean, slightly cinematic look with neutral tones."
+        },
+        {
+            "Image": "Gemini_image_8.2.png",
+            "CardNo": "G#08.03",
+            "PromptText": "A powerful cinematic portrait of a stylish young man crouching confidently in a snowy mountain landscape, beside a majestic black panther. The man has a sharp, well-groomed hairstyle with volume, a trimmed beard, and an intense, focused gaze directed at the camera. He is dressed in an all-black luxury outfit — a tailored suit with a black turtleneck, fitted trousers, leather gloves, and polished dress shoes — giving a sleek, modern, high-fashion look. Next to him sits a muscular black panther with deep, glossy fur and piercing glowing yellow eyes, staring forward with a calm yet dominant presence. The bond between the man and the panther feels powerful and symbolic. The environment features snow-covered ground and dramatic alpine mountains in the background, slightly blurred with atmospheric depth. Light snowfall is visible in the air, adding motion and realism. Lighting is cold, cinematic, and moody — soft diffused daylight with blue-toned color grading, subtle rim lighting highlighting the edges of the subject and the panther, enhancing contrast against the snowy environment. Shot with a telephoto lens (85mm), shallow depth of field, sharp focus on the man and panther, background softly blurred. Ultra-realistic textures — detailed fabric, realistic snow particles, and highly defined panther fur. Color grading: cool blue tones with high contrast, cinematic film look, HDR, 8K resolution, hyper-detailed, dramatic composition, editorial luxury style, 4:5 aspect ratio."
+        },
+        {
+            "Image": "Gemini_image_8.3.png",
+            "CardNo": "G#08.04",
+            "PromptText": "Ultra-realistic luxury fashion portrait of a confident, sharp-featured man standing inside a high-rise penthouse overlooking a glowing night city skyline. He wears a perfectly tailored black tuxedo with satin lapels, a crisp white shirt, and a silk bow tie. A gold luxury watch gleams on his wrist. Soft cinematic lighting highlights his jawline and skin texture, creating deep shadows and contrast. The atmosphere feels rich, powerful, and elite. Shot in editorial magazine style, 8K resolution, hyper-detailed fabric textures, natural skin tones, depth of field, professional fashion photography, luxury lifestyle aesthetic."
+        },
+        {
+            "Image": "Gemini_image_8.4.png",
+            "CardNo": "G#08.05",
+            "PromptText": "Environment Clean, minimalist Environment Clean, minimalist Use the uploaded reference photo of me as the primary identity source. Preserve my face exactly as in the uploaded image - same facial structure, skin tone, proportions, facial asymmetry, eyes, nose, lips, jawline and natural skin texture. Do not beautify, stylize, or alter my identity. Create an ultra-realistic, high-resolution fashion editorial portrait with a bold, confident, runway-inspired attitude. Pose & Attitude (Very Important) Subject centered in the frame Body slightly angled (not straight-on) One hand inside the trouser pocket Other hand gripping the collar of the puffer jacket Chin slightly raised Strong, dominant runway-style expression Confident, stylish, high fashion presence Outfit Styling (Exact) White puffer jacket, worn open (realistic fabric volume and stitching) Black T-shirt underneath, clean and minimal Black jeans, well-fitted Outfit should look premium, fashion-editorial ready, with natural folds and texture Studio indoor studio Neutral tones (off-white / light grey) Subtle vertical panel wall in the background, positioned slightly offset to the right No clutter, no props, pure fashion focus Lighting Design Soft diagonal studio lighting coming from one side Gentle highlights on face and jacket Controlled shadows adding depth and attitude. Balanced exposure, no harsh contrast Editorial fashion lighting, not cinematic drama Camera & Depth Professional fashion photography look Eye-level or slightly low camera angle Medium to tight portrait framing Shallow depth of field: Face and upper body in crisp focus Background softly blurred but still readable Natural lens behavior, no artificial blur Strict Realism Rules Zero Al smoothing No plastic or over-retouched skin Visible skin pores and fine details No cartoon, illustration, or stylized look No exaggerated proportions Real-world lighting and textures only Final Output Goal The image should look like a luxury fashion magazine editorial shoot, captured in a professional studio with a confident, dominant runway attitude ultra-real, high-res, and publication-ready, not Al-generated."
+        },
+        {
+            "Image": "Gemini_image_8.5.png",
+            "CardNo": "G#08.06",
+            "PromptText": "against a modified silver BMW M4 Use the uploaded reference image as the ONLY face source. Maintain 100% identical facial structure, skin texture, hairstyle, beard, and expression. No beautification, no stylization, no face change. Ultra-realistic cinematic nighttime street scene in an urban Tokyo-style alley. A young man (use reference face, identity locked) casually leaning sideways Competition (MK4 style), clearly showing the BMW log logo on the front grille. Pose: relaxed side lean, one foot crossed over the other, hands loosely hanging Outfit: loose black jeans, textured dark sweater, minimal accessories. Camera: Low-angle shot, 35mm lens, ens, slightly tilted frame for street racing vibe. Lighting: harsh direct flash from front-left, creating deep shadows and blown highlights on face and car surface. Environment: neon signs, wet asphalt reflecting light, slight fog in air. Style: early-2000s Tokyo drift culture, disposable camera aesthetic, film grain, imperfect exposure, slight motion lur. Ultra-detailed, realistic skin tones. RAW cinematic quality, 8K.no Al artifacts, no plastic skin, natural imperfections, realistic noise> Use 4:5 ratio for Instagram film grain, flash photography, high contrast."
+        },
+        {
+            "Image": "Gemini_image_8.6.png",
+            "CardNo": "G#08.07",
+            "PromptText": "Ultra-realistic cinematic DSLR photograph of an 18-year-old handsome young man with a slim skinny body, lean physique, narrow shoulders and waist, youthful proportions, standing confidently in an attitude modelling pose while leaning against the front hood of a modified black and blue Toyota Supra sports car. The camera angle is a high elevated top-down ,banana angle, perspective, positioned significantly higher than usual to create a mor expanded and less close-up overhead composition, capturing more of the surrounding wet asphalt environment while maintaining a strong vertical framing. The young man's face must 1 y identical to the reference image with no alteration in facial structure, proportions, be skin texture. He is wearing black sunglasses with a sleek matte frame and dark lenses covering his eyes, adding a bold attitude look. His hairstyle remains a modern textured side-swept quiff with heavy natural volume on top, deep side flow, messy yet controlled texture, soft matte finish, visible natural hai s, and softly blended sides. His outfit consists of the same base clothing a plain white t-shirt underneath, layered with a black bomber jacket featuring subtle Blue accents and panels that match the car's color theme. The jacket has realistic fabric texture, slight sheen, visible stitching, elastic cuffs, and natural folds around the elbows and torso. He is also wearing light grey jogger sweatpants with soft cotton texture and natural wrinkles, along with clean athletic sneakers showing realistic sole grip and stitching details. Pose is strong and attitude-driven his back is slightly leaned against the front bumper of the car, shoulders relaxed but confident, one leg slightly forward and crossed casually, while one hand is inside the jacket pocket and the other resting loosely near the side creating a natural modelling stance. His head is slightly tilted with chin lowered subtly, facing slightly away from camera, enhancing the candid cinematic feel. The modified Toyota Supra features a glossy dual-tone finish (black base with red highlights), aggressive front bumper design, sharp LED headlights, black grille, aerodynamic vents, and sleek contours. Rain droplets are visible on the windshield and hood, with realistic water streaks and reflections enhancing detail The environment is a dark wet asphalt road with visible water patches and reflective surfaces, creating subtle mirror-like reflections of the car and subject. Lighting is natural overcast daylight, soft diffused light from abov producing smooth shadow transitions and a moody cinematic tone. The overall color grading is cool-toned with high contrast, emphasizing the Blue highlights of the car and jacket against the dark environment Shot using a 35mm cinematic lens, high angle, wide overhead framing, full body vertical composition with increased environmental space. Depth of field is moderately deep, keeping both subject and car sharp while the surrounding ground softly fades. Micro details include fine hair strands, realistic skin pores (no smoothing), fabric wrinkles, jacket texture, raindrops on glass, and subtie reflections on wet surfaces. Resolution: 1664x2080, AR 415 Negative Prompt: face change, identity alteration, different facial structure, beautified or edited face, unrealistic skin smoothing, plastic skin, hairstyle chang change, fade haircut, wrong hairstyle, muscular or bulky body, incorrect proportions, extra fingers, deformed hands, distorted limbs, low resolution, blur, pixelation, overexposed lighting, underexposed depressed shadows, harsh artificial light, unrealistic reflections, CGI look, cartoonish style, incorrect car model warped car shape, excessive HDR, noise artifacts, text distortion, watermark errors, symmetry issues, unnatural shadows, fake raindrops."
+        },
+        {
+            "Image": "Gemini_image_8.7.png",
+            "CardNo": "G#08.08",
+            "PromptText": "Keep the same facial structure and appearance. A young man leaning casually against the front fender of a Red and black BMW m4 Competition, same relaxed pose - hands in pockets, one leg crossed slightly in front of the other, shoulder resting lightly on the car, looking toward from the camera. Outfit: all-black and white streetwear - Tailored dark suede jacket, open collar shirt black cargo pants, black sneakers, modern urban style. Car: black BMW m8 Competition, aggressive front bumper, black rims, sporty stance. Setting: open countryside field with tall trees in the background, parked on a smooth asphalt road. Low wide automotive photography angle, cinematic natural lighting, realistic shadows, ultra-realistic photo, sharp details, depth of field, lifestyle automotive photoshoot, Use the provided reference image for the man's face and identity."
+        }
+    ],
+    "G09": [
+        {
+            "Image": "Gemini_image_9.png",
+            "CardNo": "G#09.01",
+            "PromptText": "Abstract photography, double exposure of nature and man, blue to black gradient, soul like blurry edge silhouette in a high-end fashion clothing, editorial, Fuji xt5, on Fuji classic chrome 35mm film, sleek and minimal --ar 4:5."
+        },
+        {
+            "Image": "Gemini_image_9.1.png",
+            "CardNo": "G#09.02",
+            "PromptText": "Ultra-realistic cinematic portrait of a rugged young man with defined facial features, curly dark hair, and light stubble, shown in a left-facing side profile. His skin is slightly dirty with subtle battle marks and scratches on his cheek. He has a calm, focused expression, looking into the distance. He wears a weathered brown cloak with a rough, medieval/fantasy texture. Beside him is a majestic male lion with a full golden mane, also facing left in the same direction, positioned close to his shoulder, creating a strong companionship bond. Warm golden-hour lighting, dramatic shadows, dust particles in the air, desert or rocky background softly blurred. Highly detailed textures (hair strands, skin pores, fabric, lion fur). Shallow depth of feld, cinematic composition, epic fantasy mood, 8k resolution, photorealistic, sharp focus on faces."
+        },
+        {
+            "Image": "Gemini_image_9.2.png",
+            "CardNo": "G#09.03",
+            "PromptText": "Photography of a man standing frozen in time amidst a rushing crowd. High-speed zoom blur effect. The crowd is a massive blur of motion streaks radiating from the center. The man in the center is perfectly sharp and focused, wearing a red coat. Long exposure style, desaturated cool tones, moody atmosphere, high contrast between the stillness of the subject and the motion of the crowd. make sure you keep these specific keywords: ,Radial Motion Blur, or ,Zoom Blur,: This creates the effect where the blur looks like it is exploding outward from the center, rather than just moving left-to-right. ,Razor- Sharp Focus,: This ensures the Al understands the subject must not be blurry. ,Frozen in Time,: This helps the Al understand the concept of one person standing still while the world moves fast.Indistinguishable Crowd,: This ensures the background people don't have faces its white faces, keeping the focus on the main man."
+        },
+        {
+            "Image": "Gemini_image_9.3.png",
+            "CardNo": "G#09.04",
+            "PromptText": "A high-end, cinematic studio portrait of a man in full natural color, with a sharp, groomed hairstyle, sitting in a thoughtful, composed pose. He looks directly into the camera with an intense, steady gaze, his chin resting gently on one hand. He wears a crisp, fitted black button-down shirt rendered in rich, true-to-life color tones. On his wrist, a detailed luxury diver-style watch with a prominent bezel is clearly visible, reflecting subtle highlights. His other hand rests flat on a surface in the foreground, adorned with a sleek, minimalist metallic bracelet. The background is pure black and white (monochrome) — a clean, dark, textured charcoal studio backdrop with no color, creating a strong visual contrast against the colored subject. Use selective color grading where only the subject remains in color while everything behind fades into grayscale. Lighting is dramatic and moody, using dark-night chiaroscuro lighting — deep shadows sculpting one side of the face, with controlled highlights emphasizing facial structure, skin texture, and fabric detail. Subtle rim lighting separates the subject from the monochrome background. Shot with an 85mm lens, featuring flattering compression, razor-sharp focus on the eyes, shallow depth of field, creamy bokeh in grayscale background, hyper-realistic detail, editorial luxury photography style. Ultra-detailed, 4K resolution, HDR, high contrast, selective color effect, studio-grade retouching, 4:5 aspect ratio."
+        },
+        {
+            "Image": "Gemini_image_9.4.png",
+            "CardNo": "G#09.05",
+            "PromptText": "A high-end, cinematic studio portrait of a man in full natural color, with a sharp, groomed hairstyle, sitting in a thoughtful, composed pose. He looks directly into the camera with an intense, steady gaze, his chin resting gently on one hand. He wears a crisp, fitted black button-down shirt rendered in rich, true-to-life color tones. On his wrist, a detailed luxury diver-style watch with a prominent bezel is clearly visible, reflecting subtle highlights. His other hand rests flat on a surface in the foreground, adorned with a sleek, minimalist metallic bracelet. The background is pure black and white (monochrome) — a clean, dark, textured charcoal studio backdrop with no color, creating a strong visual contrast against the colored subject. Use selective color grading where only the subject remains in color while everything behind fades into grayscale. Lighting is dramatic and moody, using dark-night chiaroscuro lighting — deep shadows sculpting one side of the face, with controlled highlights emphasizing facial structure, skin texture, and fabric detail. Subtle rim lighting separates the subject from the monochrome background. Shot with an 85mm lens, featuring flattering compression, razor-sharp focus on the eyes, shallow depth of field, creamy bokeh in grayscale background, hyper-realistic detail, editorial luxury photography style. Ultra-detailed, 4K resolution, HDR, high contrast, selective color effect, studio-grade retouching, 4:5 aspect ratio."
+        },
+        {
+            "Image": "Gemini_image_9.5.png",
+            "CardNo": "G#09.06",
+            "PromptText": "Use the uploaded reference image as the exact identity source. Keep the same man with matching skin tone, ethnicity, facial geometry, eyes, nose, lips, jawline, and overall proportions. No identity drift. Ultra-photorealistic contrasty editorial portrait of the same man seated low on a minimalist metal stool in a wild open landscape at night. His legs are stretched forward, feet firmly grounded, shoulders relaxed, head slightly lowered, expression calm, thoughtful, and dangerously confident. Style him as a highly charismatic luxury Texas cowboy: black premium western hat, tailored dark suede jacket, open-collar shirt, fitted dark western trousers, expensive leather cowboy boots, refined belt, subtle masculine accessories, and a polished high-end ranch aesthetic. The outfit must feel cinematic, seductive, rugged, and expensive. One hand hangs naturally between his knees while holding fine leather reins. Behind him stands a majestic horse partially overlapping his silhouette and full body visible in image. hight setting, dark cinematic background, firelight reflecting across his face, boots, belt, jacket, and the horse's body. Medium-format fashion photography, shallow depth of field, moody shadows, luxury western editorial vibe, 8k, masterpiece, aspect ratio 4:5."
+        },
+        {
+            "Image": "Gemini_image_9.6.png",
+            "CardNo": "G#09.07",
+            "PromptText": "A striking young man reclines confidently on a deep brown velvet sofa, situated in a richly detailed, classic wood- paneled interior. He is dressed in a dark, impeccably tailored suit with a relaxed silhouette; the blazer hangs open over a crisp white dress shirt, casually unbuttoned at the collar to reveal a hint of natural chest hair. His pose is both languid and undeniably seductive, with one arm draped behind his head and his legs loosely crossed. The other hand rests calmly on his thigh. He has well-groomed dark hair, subtle stubble, and sharp facial features that frame an intense, unwavering gaze directed straight at the camera. The overall mood conveys quiet power, masculine elegance, and refined sensuality, evoking a cinematic and editorial aesthetic. This stunning photorealistic depiction should be rendered in ultra-high resolution with a 4:5 aspect ratio and high-end photo retouching, boasting remarkable 8K quality. Every detail should be sharp, from subtle texture grains to the precise alignment of facial features-eyes, nose, mouth, eyebrows, and ears-mirroring the reference image flawlessly."
+        }
+    ],
+    "G10": [
+        {
+            "Image": "Gemini_image_10.png",
+            "CardNo": "G#10.01",
+            "PromptText": "CINEMATIC ULTRA-REALISTIC BLACK & WHITE PORTRAIT OF A YOUNG ASIAN MAN(UPLOAD) WITH SHARP FEATURES, MEDIUM SKIN TONE, STYLISH MEDIUM WAVY BLACK HAIR. POSE: HEAD SLIGHTLY TILTED DOWNWARD, CHIN LOWERED, EYES LOOKING CAMERA, RELAXED YET INTENSE EXPRESSION. CAMERA: 24–28MM MILD WIDE-ANGLE, SLIGHTLY ABOVE EYE LEVEL, MEDIUM CLOSE-UP (CHEST & SHOULDERS), NATURAL PROPORTIONS. OUTFIT: RED COLLARED SHIRT (TOP BUTTONS OPEN) + SILVER CHAIN NECKLACE. CIGARETTE IN LIPS WITH SUBTLE SMOKE. COLOR: SELECTIVE — ONLY SHIRT IN VIBRANT RED, REST MONOCHROME. BOLD WHITE OUTLINE (STICKER EFFECT). BACKGROUND: DETAILED RED & ORANGE GRUNGE COLLAGE (PAINT SPLASHES, ARROWS, SPIDER, TORN PAPER, CASSETTE, X MARKS, ABSTRACT TEXTURES). LIGHTING: HIGH CONTRAST CINEMATIC, SOFT SHADOWS, SLIGHT RIM LIGHT. STYLE: GRUNGE STREET ART, HIP-HOP AESTHETIC, ULTRA-REALISTIC, 8K. NEGATIVE: FISHEYE, EXTREME DISTORTION, OVERSIZED FACE, LOOKING AT CAMERA, SMILING, BLURRY, LOW QUALITY. --AR 4:5 --STYLE RAW."
+        },
+        {
+            "Image": "Gemini_image_10.1.png",
+            "CardNo": "G#10.02",
+            "PromptText": "A bold graphic collage poster featuring three stylized portraits of a young man wearing sunglasses and a blazer. The design uses a strong red, black, and white color palette with high contrast. One portrait is placed on the left with a diagonal red and white geometric background, including bold typography reading, POWER, PROGRESS, and HYDROGRAPHICS. The top-right portrait has a torn paper collage effect with layered textures, graffiti elements, and abstract shapes. The bottom-right portrait features an elegant dark blue and gold art deco geometric background. The composition is arranged on a black canvas with vertical red and white stripes running along the left side. The portraits have a digital painting / vector illustration style with sharp edges, high detail, and cinematic lighting. Modern street art meets luxury poster design, ultra-detailed, 4K resolution."
+        },
+        {
+            "Image": "Gemini_image_10.2.png",
+            "CardNo": "G#10.03",
+            "PromptText": "A highly detailed vintage engraving-style illustration of a young boy with soft facial features, wearing a classic three-piece suit with a tie and pocket watch chain. He is holding a lighter in his gloved hand, lighting a cigarette placed between his lips. The flame glows warmly, creating a dramatic contrast against the monochrome sepia-toned artwork. The boy’s expression is calm and introspective, eyes gently focused downward. The background is filled with intricate mechanical clockwork, gears, and ornate Victorian patterns, forming a circular halo-like composition behind his head. The entire artwork is rendered in an old-fashioned etching / cross-hatching style, resembling antique book illustrations. Lighting is soft but dramatic, with the flame acting as the only warm light source. Textures are extremely detailed, with fine lines, high contrast, and a hand-drawn engraved aesthetic. Color palette: sepia, brown, black, with subtle warm glow from the flame. Style Keywords: vintage engraving Victorian illustration steampunk aesthetic intricate linework cross-hatching shading ultra-detailed antique etching style high contrast lighting cinematic composition Camera / Composition: centered portrait medium close-up symmetrical circular background sharp focus on face and flame."
+        }
+    ],
+    "G11": [
+        {
+            "Image": "Gemini_image_11.png",
+            "CardNo": "G#11.01",
+            "PromptText": "A stylish young man standing outdoors surrounded by vibrant pink and red flowers, wearing a bright blue button-up shirt and grey pants. He has neatly styled black hair, light facial hair, and is wearing clear eyeglasses and a black wristwatch. The man is looking slightly to the side with a calm and confident expression. The scene has a shallow depth of field with soft background blur (bokeh), focusing sharply on the subject. Natural lighting, soft tones, cinematic portrait style, high detail, DSLR quality, 85mm lens, f/ 1.8, vibrant colors, professional photography."
+        },
+        {
+            "Image": "Gemini_image_11.1.png",
+            "CardNo": "G#11.02",
+            "PromptText": "A fashionable young man walking along a garden pathway surrounded by lush pink bougainvillea flowers on both sides. He is wearing a light yellow button-up shirt with sleeves rolled up and white pants. One hand is in his pocket while the other swings naturally as he walks. He has neatly styled black hair, a short trimmed beard, and is wearing a black wristwatch. The man is looking slightly to the side with a calm, confident expression. The scene is shot in natural soft daylight with a shallow depth of field, creating a creamy bokeh background. The flowers frame the subject beautifully,giving a vibrant contrast to his outfit.Ultra-realistic, cinematic portrait photography, DSLR quality, 85mm lens, f/1.8, high detail, soft lighting, vibrant colors."
+        },
+        {
+            "Image": "Gemini_image_11.2.png",
+            "CardNo": "G#11.03",
+            "PromptText": "Create an image A stylish young man standing outdoors beneath a dense canopy of pink and red flowers, cinematic street photography. He is wearing a light pastel red button-down shirt slightly unbuttoned at the top, beige linen trousers. He holds a bouquet of red and yellow roses wrapped in pink striped paper with a red ribbon in his left hand. He is wearing a Sunglasses, and he has light stubble and a calm, thoughtful expression while looking slightly to the side. The setting is a cozy urban café street with soft bokeh lights, a tree trunk, and warm ambient lighting. Shallow depth of field, ultra-realistic, high detail, natural skin tones, soft pastel color palette, romantic aesthetic, 85mm lens look, professional photography, vertical portrait composition."
+        },
+        {
+            "Image": "Gemini_image_11.3.png",
+            "CardNo": "G#11.04",
+            "PromptText": "Young man standing on a sailboat deck at sunrise, white shirt and grey trousers, ocean mist around, peaceful yet powerful aura, luxury coastal aesthetic, cinematic film grain texture aand 100% same face and same hair he wearing black sunglasses."
+        },
+        {
+            "Image": "Gemini_image_11.4.png",
+            "CardNo": "G#11.05",
+            "PromptText": "Cinematic medium shot of a male figure featuring uploaded face as reference, styled in high-end streetwear. The subject wears a glossy black satin bomber jacket over a clean white crew-neck t-shirt and black joggers, hands casually placed in pockets. The background is a heavily blurred urban night scene with bokeh circles of cyan, white, and amber city lights, indicating a shallow depth of field typical of an 85mm f/1.8 lens. High-fidelity textures on the jacket fabric and skin, photorealistic 8k Octane Render quality, volumetric lighting effects, sharp focus on the subject."
+        },
+        {
+            "Image": "Gemini_image_11.5.png",
+            "CardNo": "G#11.06",
+            "PromptText": "Ultra-realistic 8K cinematic portrait, 3:4 vertical composition, stylish young Indian man standing in an outdoor industrial setting, rustic brick wall and stacked wooden crates in the background with soft blur, wearing a dark navy Wine Red button-up shirt with open collar, fitted Black jeans, layered Gold chain necklace, Golden sunglasses, modern casual look, one hand in pocket and the other holding sunglasses slightly forward, confident relaxed expression, warm natural lighting, shallow depth of field, sharp focus on subject, cinematic color grading, high detail, professional photography style."
+        },
+        {
+            "Image": "Gemini_image_11.6.png",
+            "CardNo": "G#11.07",
+            "PromptText": "A man stands outdoors relaxed pose While folding the one hand shirt, wearing a loose, dark white black shirt and black -leg trousers, head tilted down in a candid gesture. He has a stylish Smart watch on his wrist. The background features blurred greenery and tall trees, natural, urban vibe with daylight and casual fashion focus. Nathing change my face and hair style."
+        }
+    ],
+    "G12": [
+        {
+            "Image": "Gemini_image_12.png",
+            "CardNo": "G#12.01",
+            "PromptText": "A lone warrior standing on a cliff during sunset, dramatic sky filled with orange and purple clouds, wind blowing cape, ultra realistic, cinematic lighting, 4K, depth of field, wide angle lens, high detail, film grain, epic composition."
+        },
+        {
+            "Image": "Gemini_image_12.1.png",
+            "CardNo": "G#12.02",
+            "PromptText": "CINEMATIC ULTRA-REALISTIC BLACK & WHITE PORTRAIT OF A YOUNG ASIAN MAN(UPLOAD) WITH SHARP FEATURES, MEDIUM SKIN TONE, STYLISH MEDIUM WAVY BLACK HAIR. POSE: HEAD SLIGHTLY TILTED DOWNWARD, CHIN LOWERED, EYES LOOKING CAMERA, RELAXED YET INTENSE EXPRESSION. CAMERA: 24–28MM MILD WIDE-ANGLE, SLIGHTLY ABOVE EYE LEVEL, MEDIUM CLOSE-UP (CHEST & SHOULDERS), NATURAL PROPORTIONS. OUTFIT: RED COLLARED SHIRT (TOP BUTTONS OPEN) + SILVER CHAIN NECKLACE. CIGARETTE IN LIPS WITH SUBTLE SMOKE. COLOR: SELECTIVE — ONLY SHIRT IN VIBRANT RED, REST MONOCHROME. BOLD WHITE OUTLINE (STICKER EFFECT). BACKGROUND: DETAILED RED & ORANGE GRUNGE COLLAGE (PAINT SPLASHES, ARROWS, SPIDER, TORN PAPER, CASSETTE, X MARKS, ABSTRACT TEXTURES). LIGHTING: HIGH CONTRAST CINEMATIC, SOFT SHADOWS, SLIGHT RIM LIGHT. STYLE: GRUNGE STREET ART, HIP-HOP AESTHETIC, ULTRA-REALISTIC, 8K. NEGATIVE: FISHEYE, EXTREME DISTORTION, OVERSIZED FACE, LOOKING AT CAMERA, SMILING, BLURRY, LOW QUALITY. --AR 4:5 --STYLE RAW."
+        }
+    ],
+    "G13": [
+        {
+            "Image": "Gemini_image_13.png",
+            "CardNo": "G#13.01",
+            "PromptText": "Ultra-realistic cinematic action shot of a professional soccer player mid-kick during a night match, captured from a dynamic low-angle perspective. The player is wearing a dark blue and orange uniform, with intense focus and powerful body movement as his foot strikes the ball. Dirt, grass, and debris explode around the impact point, adding dramatic motion and energy. Stadium lights glow brightly in the background with a soft bokeh crowd, creating a high-contrast atmosphere. Strong directional lighting highlights the player’s muscles, sweat, and texture details. Motion blur, sharp focus on the player and ball, dramatic shadows, HDR, 8K resolution, sports photography style, hyper-detailed, cinematic color grading, depth of field. Optional Add-ons : “slow motion effect” “particles and sparks flying” “rain droplets for dramatic mood” “lens flare from stadium lights” “Nike/Adidas style sports ad aesthetic”."
+        }
+    ],
+    "G14": [
+        {
+            "Image": "Gemini_image_14.png",
+            "CardNo": "G#14.01",
+            "PromptText": "Ultra-realistic 4:5 vertical format ultra wide angle 13mm selfie of me with Eleven, Mike Wheeler, Dustin Henderson, Lucas Sinclair, Will Byers, Max Mayfield, Jim Hopper in a dark, eerie Upside Down environment. We're all making intense, exaggerated expressions, some scared, some focused, some slightly unhinged. High camera angle, backside window stranger thinks creature boss. Extreme wide lens no fish-eye distortion. Realistic, live action characters, cinematic lighting, moody atmosphere, red-black color grading, floating particles in the air, all realistic characters integrated with stylized realism."
+        },
+        {
+            "Image": "Gemini_image_14.1.png",
+            "CardNo": "G#14.02",
+            "PromptText": "USE MY UPLOADED PHOTO AS THE PRIMARY FACIAL REFERENCE WITH STRICT IDENTITY PRESERVATION OF MY FACIAL PROPORTIONS, BONE STRUCTURE, EYES AND JAWLINE. CINEMATIC PORTRAIT OF ME AS A BATTLE- WORN MASKED WEB-SLINGING HERO, WEARING A RED TEXTURED TACTICAL SUIT WITH SUBTLE BLACK WEB PATTERNS AND A DARK SPIDER EMBLEM ON THE CHEST. HOLDING A DAMAGED RED MASK WITH WHITE EYE LENSES IN ONE HAND BESIDE MY FACE. MY FACE VISIBLE WITH DIRT, SCRATCHES AND SMALL CUTS AFTER A FIGHT, INTENSE DETERMINED EXPRESSION. DARK SMOKY ATMOSPHERE SURROUNDING ME WITH DRIFTING SMOKE AND PARTICLES. DRAMATIC MOODY LIGHTING HIGHLIGHTING THE SUIT TEXTURE AND FACIAL DETAILS. GRITTY POST-BATTLE ENVIRONMENT, ULTRA-REALISTIC SKIN AND FABRIC DETAIL, SHALLOW DEPTH OF FIELD, HYPER-DETAILED PHOTOREALISTIC STYLE, EPIC MOVIE-POSTER COMPOSITION, 8K QUALITY, NO TEXT, NO LOGOS, NO WATERMARK."
+        }
+    ],
+    "G15": [
+        {
+            "Image": "Gemini_image_15.png",
+            "CardNo": "G#15.01",
+            "PromptText": "ultra realistic romantic nighttime beach photoshoot, tight close-up framing (chest to head), dark ocean background softly blurred, strong warm golden spotlight lighting, high contrast shadows, wet glossy skin, slightly in front of man, body angled slightly toward left, ansual and man standing on left side slightly behind woman, upper body angled slightly toward right, his left cheek/temple gently touching the right side of woman's head, MAN POSITION (LEFT SIDE. SLIGHTLY BEHIND): head tilted slightly downward and toward woman, eyes looking forward with intense serious expression ression ( (not at camera directly but slightly off), WOMAN POSITION (RIGHT SIDE, FRONT): woman , FRONT): woman standing sligh upper body subtly leaning back into him, expression, short wet messy hair falling on forehead, slightly wet texture, head slightly tilted right, resting lightly against his face, face turned toward camera, eyes half-open, lips slightly parted giving soft censual expression, wet messy tied hair with loose strands on face with big boobs (like MiaKhalifa sexy big boobs photo shoot) visible on screen , VERY IMPORTANT BODY & POSITION: no visible hands in frame tight framing so only upper torso and faces visible, minimal gap between faces, cheek-to-temple contact, subtle inward lean between both bodies (not exaggerated), CLOTHING & DETAILS: woman wearing Soft & Romantic Coastal Style, skin glowing due to warm light, CAMERA & STYLE: eve-level close-up shot, shallow depth of field, sharp focus on faces, cinematic editorial fashion photography, ultra detailed, 8k realisms."
+        },
+        {
+            "Image": "Gemini_image_15.1.png",
+            "CardNo": "G#15.02",
+            "PromptText": "ultra realistic nematic nighttime beach photoshoot, tight close-up framing (chest to head), dark ocean background softly blurred, strong warm golden spotlight lighting, high contrast shadows, wet glossy skin, slightly in front of man, body angled slightly toward left, ansual and man standing on left side slightly behind woman, upper body angled slightly toward right, his left cheek/temple gently touching the right side of woman's head, MAN POSITION (LEFT SIDE. SLIGHTLY BEHIND): head tilted slightly downward and toward woman, eyes looking forward with intense serious expression ression ( (not at camera directly but slightly off), WOMAN POSITION (RIGHT SIDE, FRONT): woman , FRONT): woman standing sligh upper body subtly leaning back into him, expression, short wet messy hair falling on forehead, wearing off-black linen shirt partially unbuttoned, slightly wet texture, head slightly tilted right, resting lightly against his face, face turned toward camera, eyes half-open, lips slightly parted giving soft censual expression, wet messy tied hair with loose strands on face, VERY IMPORTANT BODY & POSITION: no visible hands in frame tight framing so only upper torso and faces visible, minimal gap between faces, cheek-to-temple contact, subtle inward lean between both bodies (not exaggerated), CLOTHING & DETAILS: woman wearing Soft & Romantic Coastal Style, skin glowing due to warm light, CAMERA & STYLE: eve-level close-up shot, shallow depth of field, sharp focus on faces, cinematic editorial fashion photography, ultra detailed, 8k realism."
+        },
+        {
+            "Image": "Gemini_image_15.2.png",
+            "CardNo": "G#15.03",
+            "PromptText": "Portrait of a stunning Asian woman with long, wavy dark hair, wearing an ethereal powder-violet resort wear ensemble. She is wearing a draped halter-style top with a shell-themed center brooch and a matching tiered mini skirt and boods are sexy big. Accessories include a delicate pearl waist chain. She carries a woven straw tote bag filled with white and red roses. add a young men.men outfit a oversized black shirt and black baggy Jean's, attitude style and women ko godi me utha liya hu,dark seen back."
+        },
+        {
+            "Image": "Gemini_image_15.3.png",
+            "CardNo": "G#15.04",
+            "PromptText": "A high-definition candid photograph of a happy young Asian couple on a paved pathway during the day. Pose: the couple is captured in a relaxed walking-break moment - the young man is standing beside the wall, slightly leaning with one shoulder against it, one leg bent with foot resting on the wall, while the young woman stands in front of him facing him, gently holding both of his hands; they are close, smiling softly and making eye contact, creating a calm, romantic and intimate vibe. Outfit: the young man has stylish, voluminous dark hair and is wearing a crisp white open-button shirt over a black fitted t-shirt, paired with slim-fit blue jeans, a silver chain, and a watch. The young woman has shoulder-length dark hair and is wearing a trendy pastel crop top with high-waisted accessorized with minimal jewelry. The background is a weathered concrete wall with green tree foliage above, and the scene is lit by soft, natural daylight with a warm cinematic aesthetic. Aspect ratio 4:5 100% face swap and matching."
+        },
+        {
+            "Image": "Gemini_image_15.6.png",
+            "CardNo": "G#15.05",
+            "PromptText": "Hyper-realistic smartphone selfie of a Asian couple in a casual bedroom. Woman wearing a sunshine-red embroidered kurti,boy wearing a loose white shirt, and light blue baggy jeans; long dark hair partially covering her face, soft makeup with rosy blush and pink lips. Man beside her, looking at the camera. Soft natural window light, high selfie angle, candid intimate mood. Teal wall, yellow wardrobe in background. 4K, social-media aesthetic. Don't change My face. aspect ratio 4:5."
+        }
+    ]
+}

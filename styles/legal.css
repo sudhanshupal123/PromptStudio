@@ -38,10 +38,12 @@
 html,
 body {
     width: 100%;
-    max-width: 100%;
+    height: 100%;
     overflow-x: hidden;
     height: auto;
     scroll-behavior: smooth;
+    background: var(--bg);
+
 }
 
 /* ===== GRID LINES BG ===== */
@@ -61,7 +63,7 @@ body {
 header {
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 50px;
     top: 0;
     left: 0;
     right: 0;
@@ -81,21 +83,20 @@ header {
 }
 
 .logo-img img {
-    width: 100px;
+    width: 40px;
     margin-left: 20px;
     margin-top: 5px;
 }
 
 .logo-img p {
     color: #bababa;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
 .navbar-links {
-    padding: 10px 20px;
+    padding: 5px 10px;
     text-transform: none;
-    margin-right: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -106,7 +107,7 @@ header {
 .navbar-links a {
     text-decoration: none;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 5px 0.7rem;
     margin-right: 10px;
     color: #bababa;
@@ -118,8 +119,6 @@ header {
     transition: all 0.15s;
     background-color: #30303073;
 }
-
-
 
 /* Main */
 main {
@@ -158,16 +157,20 @@ main {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.privacy-policy-description-1 h2 ,p{
+
+.privacy-policy-description-1 h2,
+p {
     margin-top: 1rem;
     line-height: 1;
 }
-.privacy-policy-description-1 h2{
+
+.privacy-policy-description-1 h2 {
     color: #ffffff;
-    margin-top:2rem;
+    margin-top: 2rem;
 }
-.terms-and-conditions{
-    padding-top:5rem;
+
+.terms-and-conditions {
+    padding-top: 5rem;
     width: 100%;
     height: auto;
     color: #b7b7b7;
@@ -175,10 +178,11 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top:2rem;
+    margin-top: 2rem;
     border-top: 1px solid var(--border);
 }
-.terms-and-conditions-description{
+
+.terms-and-conditions-description {
     width: 70rem;
     height: auto;
     color: #b7b7b7;
@@ -188,7 +192,8 @@ main {
     align-items: center;
     flex-direction: column;
 }
-.terms-and-conditions-tital-promptS{
+
+.terms-and-conditions-tital-promptS {
     margin-bottom: 2rem;
     font-size: 5rem;
     font-weight: 700;
@@ -196,76 +201,20 @@ main {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.terms-and-conditions-description-1 h2 ,p{
-    margin-bottom:1rem;
+
+.terms-and-conditions-description-1 h2,
+p {
+    margin-bottom: 1rem;
     margin-top: 1rem;
     line-height: 1.5;
 }
-.terms-and-conditions-description-1 h2{
+
+.terms-and-conditions-description-1 h2 {
     color: #ffffff;
-}
-/* about section */
-
-.section-about {
-    width: 100%;
-    height: auto;
-    background-color: var(--bg2);
-    color: #00e5c3;
-    padding: 5rem;
-}
-
-.about-prompts {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--text-faint);
-    background-color: var(--surface2);
-    padding: 0.3rem 1rem;
-    border-radius: 100px;
-    color: var(--text-muted);
-    font-family: var(--font-display);
-    font-size: 0.8rem;
-    margin-bottom: 1rem;
-}
-
-.about-prompts::before {
-    content: '';
-    margin-right: 0.5rem;
-    width: 7px;
-    height: 7px;
-    background: var(--accent);
-    border-radius: 50%;
-    animation: dote 5s ease infinite;
-}
-
-.about-tital {
-    font-size: clamp(3rem, 4vh, 505rem);
-    font-family: var(--font-display);
-    color: var(--text);
-}
-
-.about-tital .creativity-Meets {
-    background: linear-gradient(45deg, var(--accent), var(--gpt), var(--gem));
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.about-paragraph {
-    color: var(--text-muted);
-    width: 45vw;
-}
-
-.about-unorderlist {
-    color: var(--text-muted);
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
-
-.unorderlist p {
-    margin-bottom: 0.5rem;
 }
 
 .copyright {
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
