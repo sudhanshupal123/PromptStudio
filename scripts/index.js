@@ -1,17 +1,30 @@
+import { ThemeMode } from "./ThemeMode.js";
+ThemeMode();
+
+async function loadMainData() {
+    const paths = ['./json/main.json', 'json/main.json', '../json/main.json'];
+    for (const path of paths) {
+        try {
+            const response = await fetch(path);
+            if (response.ok) return await response.json();
+        } catch (e) { }
+    }
+    throw new Error(`Error:${response.status}`);
+}
+
+document.querySelector('.createdPrompt').innerHTML = `${localStorage.getItem('PromptCount')}+`
+
 function fetchMainData() {
-    fetch('../json/main.json').then(response => {
-        if (!response.ok) {
-            throw new Error(`HTPPS error! Status:${response.status}`)
-        }
-        return response.json()
-    }).then(data => {
-        let Idx = 1;
+    loadMainData().then(data => {
         let MainPageHTML = '';
+        document.querySelector('.heroCategory').innerHTML = `${data.length}+`;
         data.forEach((datas, i) => {
-            MainPageHTML += `<div class="prompt-box" data-idx="${i}">
+            const promptKey = datas.CardNo ? datas.CardNo.replace('#I', 'G') : `G${String(i + 1).padStart(2, '0')}`;//G01
+
+            MainPageHTML += `<div class="prompt-box" data-idx="${i}" data-key="${promptKey}" data-card="${datas.CardNo}">
                     <div class="gemini-img1">
                         <a><img
-                                src="gemini_img/${datas.Image}">
+                                src="gemini_img/${datas.Image}" alt="${datas.Catogery}">
                             <div class="card-category">${datas.Catogery}</div>
                             <div class="card-num">${datas.CardNo}</div>
                         </a>
@@ -19,104 +32,124 @@ function fetchMainData() {
                 </div>`;
         });
 
-        document.querySelector('.prompt').innerHTML = MainPageHTML;
-
         const promptDiv = document.querySelector('.prompt');
+
+        if (!promptDiv) return;
+        promptDiv.innerHTML = MainPageHTML;
+
+
         promptDiv.addEventListener('click', (e) => {
             const box = e.target.closest('.prompt-box');
             if (!box || !promptDiv.contains(box)) return;
-            const Index = box.dataset.idx;
-            if (Index) {
-                window.location='../gemini_prompt/PromptStudio.html'
+            const promptKey = box.dataset.key || `G${String(Number(box.dataset.idx) + 1).padStart(2, '0')}`;
+            try {
+                localStorage.setItem('selectedPromptKey', promptKey);
+            } catch (err) {
+                console.warn('Could not save to localStorage', err);
             }
+
+            // Open PromptStudio.html passing key in query string
+            window.location.href = `gemini_prompt/PromptStudio.html?id=${encodeURIComponent(promptKey)}`;
+
         });
-    })
-};
+    }).catch(error => {
+        throw new Error('Error:', error);
+    });
+}
 fetchMainData();
 
 function Email() {
-    document.addEventListener('DOMContentLoaded', () => {
-        // Feedback functionality
+    const setupEmail = () => {
         const feedbackBtn = document.getElementById('feedback-submit-btn');
-        if (feedbackBtn) {
-            feedbackBtn.addEventListener('click', () => {
-                const name = document.getElementById('feedback-name').value.trim();
-                const email = document.getElementById('feedback-email').value.trim();
-                const message = document.getElementById('feedback-message').value.trim();
+        if (!feedbackBtn) return;
 
-                if (!name || !email || !message) {
-                    alert('Please fill out all the fields before submitting.');
-                    return;
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/i;
+        const errorM = document.querySelector('.infoMessage');
+        const mailsend = document.querySelector('.Mailsend');
+        const mailP = document.querySelector('.Mailsend p');
+
+        feedbackBtn.addEventListener('click', async () => {
+            const name = document.getElementById('feedback-name').value.trim();
+            const email = document.getElementById('feedback-email').value.trim();
+            const message = document.getElementById('feedback-message').value.trim();
+
+            // Validate before sending
+            if (!name || !emailPattern.test(email) || !message) {
+                if (errorM) {
+                    errorM.style.display = 'flex';
+                    errorM.style.opacity = '1';
+                    setTimeout(() => {
+                        errorM.style.display = 'none';
+                    }, 2000);
                 }
+                return;
+            }
 
-                // Change button to indicate loading
-                const originalText = feedbackBtn.innerHTML;
-                feedbackBtn.innerHTML = 'Sending...';
-                feedbackBtn.disabled = true;
+            const originalText = feedbackBtn.innerHTML;
+            feedbackBtn.innerHTML = 'Sending...';
+            feedbackBtn.disabled = true;
 
-                // Send feedback silently using formsubmit.co API without opening mail apps
-                fetch("https://formsubmit.co/ajax/sudhanshupal.9654@gmail.com", {
+            try {
+                // Send feedback using formsubmit.co AJAX endpoint to both Gmail & Outlook
+                const response = await fetch("https://formsubmit.co/ajax/sudhanshupal.9654@gmail.com", {
                     method: "POST",
                     headers: {
                         'Content-Type': 'application/json',
                         'Accept': 'application/json'
                     },
                     body: JSON.stringify({
-                        name: name,                // FormSubmit explicitly looks for "name" to set the Sender Name
-                        email: email,              // FormSubmit explicitly looks for "email" to set the Sender Email
+                        name: name,
+                        email: email,
                         message: message,
-                        _template: "box",          // Sends a much cleaner email template instead of generic text
+                        _template: "box",
                         _replyto: email,
                         _cc: "sudhanshupal.9654@outlook.com",
-                        _subject: "Prompt Studio Feedback"
+                        _subject: "PromptStudio Feedback"
                     })
-                })
-                    .then(response => response.json())
-                    .then(data => {
-                        // Custom popup notification (toast) that appears for exactly 5 seconds
-                        const toast = document.createElement('div');
-                        toast.innerHTML = '<strong>Your Message Send</strong><br>Thanks For Send Your Feedback';
-                        toast.style.position = 'fixed';
-                        toast.style.width = '300px';
-                        toast.style.height = '100px';
-                        toast.style.top = '100px';
-                        toast.style.backgroundColor = '#232629ff';
-                        toast.style.color = '#ffffff';
-                        toast.style.padding = '15px 25px';
-                        toast.style.borderRadius = '8px';
-                        toast.style.left = '50%';
-                        toast.style.transform = 'translateX(-50%)';
-                        toast.style.zIndex = '10000';
-                        toast.style.boxShadow = '0 4px 10px rgba(0,0,0,0.3)';
-                        toast.style.fontFamily = "'Outfit', sans-serif";
-                        toast.style.transition = 'opacity 0.5s ease';
-                        document.body.appendChild(toast);
+                });
 
-                        // Make it disappear cleanly after 5 seconds
+                const data = await response.json();
+
+                if (response.ok && (data.success === true || data.success === "true")) {
+                    if (mailsend) {
+                        mailsend.style.display = 'flex';
+                        mailsend.style.opacity = '1';
+                        if (mailP) mailP.textContent = `Success: Feedback sent!`;
                         setTimeout(() => {
-                            toast.style.opacity = '0';
-                            setTimeout(() => toast.remove(), 500); // 500ms for completely fading out
-                        }, 5000);
+                            mailsend.style.opacity = '0';
+                            setTimeout(() => {
+                                mailsend.style.display = 'none';
+                            }, 500);
+                        }, 2500);
+                    }
+                    document.getElementById('feedback-name').value = '';
+                    document.getElementById('feedback-email').value = '';
+                    document.getElementById('feedback-message').value = '';
+                } else {
+                    throw new Error(data.message || 'Submission rejected by mail service');
+                }
+            } catch (error) {
+                console.error('Mail error:', error);
+                if (errorM) {
+                    const errorP = errorM.querySelector('p');
+                    if (errorP) errorP.textContent = error.message || 'Error: Could not send feedback';
+                    errorM.style.display = 'flex';
+                    errorM.style.opacity = '1';
+                    setTimeout(() => {
+                        errorM.style.display = 'none';
+                    }, 4000);
+                }
+            } finally {
+                feedbackBtn.innerHTML = originalText;
+                feedbackBtn.disabled = false;
+            }
+        });
+    };
 
-                        // Clear the inputs
-                        document.getElementById('feedback-name').value = '';
-                        document.getElementById('feedback-email').value = '';
-                        document.getElementById('feedback-message').value = '';
-
-                        // Restore button
-                        feedbackBtn.innerHTML = originalText;
-                        feedbackBtn.disabled = false;
-                    })
-                    .catch(error => {
-                        alert("An error occurred while sending your message. Please try again.");
-                        console.error(error);
-
-                        // Restore button
-                        feedbackBtn.innerHTML = originalText;
-                        feedbackBtn.disabled = false;
-                    });
-            });
-        }
-    });
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setupEmail);
+    } else {
+        setupEmail();
+    }
 }
 Email();

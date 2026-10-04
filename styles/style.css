@@ -8,7 +8,7 @@
 
 :root {
     --bg: #05050f;
-    --bg2: #090916e4;
+    --bg2: #090916ee;
     --surface: #0e0e20;
     --surface2: #13132a;
     --border: rgba(255, 255, 255, 0.07);
@@ -17,6 +17,10 @@
     --gem: #00e5c3;
     --gem-dim: rgba(0, 229, 195, 0.12);
     --gem-glow: rgba(0, 229, 195, 0.35);
+
+    --error: #ff0000;
+    --errorBG: #ffffffe9;
+    --success: #297e11;
 
     --gpt: #ff7c3a;
     --gpt-dim: rgba(255, 124, 58, 0.12);
@@ -29,10 +33,86 @@
     --text: #e8e8f5;
     --text-muted: #7a7a9a;
     --text-faint: #3a3a55;
+    --text-bl: #222222;
 
     --font-display: 'Syne', sans-serif;
     --font-body: 'Outfit', sans-serif;
     --font-mono: 'DM Mono', monospace;
+
+    --gradiant: linear-gradient(rgba(123, 92, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(123, 92, 255, 0.04) 1px, transparent 1px);
+}
+
+.darkMode {
+    --bg: #050505;
+    --bg2: #090916ee;
+    --surface: #0e0e20;
+    --surface2: #13132a;
+    --border: rgba(255, 255, 255, 0.07);
+    --border-hi: rgba(120, 100, 255, 0.35);
+
+    --gem: #00e5c3;
+    --gem-dim: rgba(0, 229, 195, 0.12);
+    --gem-glow: rgba(0, 229, 195, 0.35);
+
+    --error: #ff0000;
+    --errorBG: #ffffffe9;
+    --success: #297e11;
+
+    --gpt: #ff7c3a;
+    --gpt-dim: rgba(255, 124, 58, 0.12);
+    --gpt-glow: rgba(255, 124, 58, 0.35);
+
+    --accent: #7b5cff;
+    --accent-dim: rgba(123, 92, 255, 0.15);
+    --accent-glow: rgba(123, 92, 255, 0.4);
+
+    --text: #e8e8f5;
+    --text-muted: #7a7a9a;
+    --text-faint: #3a3a55;
+    --text-bl: #c1bfbf;
+
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'Outfit', sans-serif;
+    --font-mono: 'DM Mono', monospace;
+
+    --gradiant: linear-gradient(rgba(123, 92, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(123, 92, 255, 0.04) 1px, transparent 1px);
+    --gradiant2: linear-gradient(125deg, var(--accent), var(--gem), var(--bg));
+}
+
+.lightMode {
+    --bg: #c4c4c4;
+    --bg2: #d7d3d3f1;
+    --surface: #71719a;
+    --surface2: #8383aa;
+    --border: rgba(255, 255, 255, 0.07);
+    --border-hi: rgba(85, 76, 136, 0.35);
+
+    --gem: #107666;
+    --gem-dim: rgb(22, 105, 92);
+    --gem-glow: rgba(1, 83, 70, 0.35);
+
+    --error: #ff0000;
+    --errorBG: #e0dedee9;
+    --success: #297e11;
+
+    --gpt: #9c4b23;
+    --gpt-dim: rgba(255, 124, 58, 0.12);
+    --gpt-glow: rgba(160, 76, 33, 0.35);
+
+    --accent: #2e3174;
+    --accent-dim: rgba(43, 30, 99, 0.15);
+    --accent-glow: rgba(22, 22, 24, 0.799);
+
+    --text: #1e1d1d;
+    --text-muted: #3a3a3b;
+    --text-faint: #828294;
+    --text-bl: #222222;
+
+    --gradiant: linear-gradient(rgba(148, 127, 245, 0.075) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(123, 92, 255, 0.04) 1px, transparent 1px);
+
 }
 
 html,
@@ -42,6 +122,45 @@ body {
     overflow-x: hidden;
     height: auto;
     scroll-behavior: smooth;
+    position: relative;
+}
+
+/* Error Messages */
+
+.infoMessage,
+.Mailsend {
+    position: fixed;
+    left: 40%;
+    top: 0%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 3rem;
+    padding: 5px;
+    border-radius: 5px;
+    background: var(--errorBG);
+    color: var(--error);
+    font-weight: 600;
+    font-size: clamp(0.5rem, 5vw, 1rem);
+    border: 1px solid var(--error);
+    z-index: 99999;
+    transition: all 2s;
+    transform: translateY(100px);
+    opacity: 1;
+}
+
+.infoError i {
+    color: red;
+    background: transparent;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+.Mailsend {
+    display: none;
+    color: var(--success);
+    border: 1px solid var(--success);
 }
 
 /* ===== GRID LINES BG ===== */
@@ -49,9 +168,7 @@ body {
     content: '';
     position: fixed;
     inset: 0;
-    background-image:
-        linear-gradient(rgba(123, 92, 255, 0.04) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(123, 92, 255, 0.04) 1px, transparent 1px);
+    background-image: var(--gradiant);
     background-size: 50px 50px;
     pointer-events: none;
 }
@@ -68,6 +185,7 @@ header {
     background: var(--bg2);
     backdrop-filter: blur(999px);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-family: "Boldonse", system-ui;
@@ -88,14 +206,21 @@ header {
 }
 
 .logo-img p {
-    color: #bababa;
-    font-size:1.5rem;
+    color: var(--text-bl);
+    font-size: 1.5rem;
     font-weight: 700;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
 }
 
 .navbar-links {
     padding: 10px 20px;
-    margin-right:2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -106,16 +231,16 @@ header {
 .navbar-links a {
     text-decoration: none;
     font-weight: 700;
-    font-size:1rem;
-    color: var(--text-muted);
+    font-size: 1rem;
+    color: var(--text-bl);
     transition: all 0.3s ease;
     position: relative;
     letter-spacing: 1px;
     z-index: 1;
-    border:2px solid var(--text-muted);
+    border: 2px solid var(--text-muted);
     border-radius: 5px;
     padding: 2px 5px;
-    
+
 }
 
 .navbar-links a::after {
@@ -133,7 +258,7 @@ header {
 }
 
 .navbar-links a:hover,
-.navbar-links a.active {
+.navbar-links a.hover {
     color: var(--text);
     border-radius: 5px;
     border: 2px solid var(--accent);
@@ -141,20 +266,31 @@ header {
 }
 
 .navbar-links a:hover::after,
-.navbar-links a.active::after {
+.navbar-links a.hover::after {
     width: 100%;
     z-index: -1;
     box-shadow: 0 0 12px var(--accent), 0 0 20px var(--accent-glow);
 }
 
+.ThemeMode {
+    width: 2rem;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: 4px solid var(--text-muted)
+}
 
+.ThemeMode:hover {
+    transform: rotate(360deg);
+}
 
 /* Main */
 main {
-    padding-top: 4rem;
+    padding-top: 1rem;
     width: 100%;
     height: auto;
-    background-color: #000000fb;
+    background: var(--bg);
 }
 
 /* hero-contant */
@@ -246,7 +382,7 @@ main {
     line-height: 0.8;
     margin-bottom: 1.5rem;
     margin-top: 1rem;
-    color: white;
+    color: var(--text);
 }
 
 .hero-studio {
@@ -342,23 +478,22 @@ main {
 }
 
 .hero-img {
-    width: auto;
-    margin: 0 0 0 0;
+    width: 100%;
+    background: transparent;
+}
+
+.hero-img2 {
+    width: 100%;
+    background: transparent;
 }
 
 .hero-img2 img {
     position: absolute;
     width: 35rem;
-    margin: -60px 0 0 180px;
-    opacity: 0.4;
+    opacity: 1;
     transition: all 0.5s;
-
-}
-
-.hero-img2 img:hover {
-    transition: all 0.5s;
-    opacity: 0.7;
-
+    bottom: -8rem;
+    right: 4rem;
 }
 
 /* google-gemini-section */
@@ -418,20 +553,34 @@ main {
 /* Prompt section */
 
 .prompt {
+    width: 100%;
+    height: auto;
     background-color: transparent;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 3rem;
     row-gap: 3rem;
 }
+
 .prompt-box {
-    width:auto;
+    width: auto;
+    min-width: 20rem;
+    height: auto;
+    min-height: 20rem;
     background-color: var(--font-body);
     border-radius: 5px;
     border-top: 2px solid var(--border);
     border-right: 2px solid var(--border);
     border-left: 2px solid var(--border);
     border-bottom: 2px solid var(--border);
+    cursor: pointer;
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.prompt-box:hover {
+    transform: translateY(-4px);
+    border-color: var(--gem);
+    box-shadow: 0 10px 25px rgba(0, 229, 195, 0.2);
 }
 
 .gemini-img1 {
@@ -440,6 +589,7 @@ main {
     overflow: hidden;
     height: 500px;
     position: relative;
+    border-radius: 5px;
 }
 
 .gemini-img1 :hover {
@@ -469,70 +619,16 @@ main {
 .card-num {
     position: absolute;
     font-size: 0.8rem;
+    font-weight: 700;
     right: 10px;
     top: 10px;
     padding: 0.5rem 1rem;
     border-radius: 100rem;
-    background: var(--bg2);
+    background: var(--bg);
     opacity: 0.5;
     backdrop-filter: blur(10px);
-    color: var(--gem);
-    border: 1px solid var(--text-muted);
-}
-
-/* chatgpt  */
-
-.chatgpt-section {
-    background-color: var(--bg2);
-    padding: 3rem;
-    row-gap: 3rem;
-    column-gap: 3rem;
-    border-top-color: #00e5c34b;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-bottom-color: #00e5c34b;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-}
-
-.chatgpt-dote {
-    display: inline-flex;
-    padding: 0.2rem 1rem;
-    border-radius: 100px;
-    border: 1px solid var(--accent-glow);
-    margin-bottom: 2rem;
-    background-color: var(--accent-dim);
-    color: var(--gpt);
-    font-family: var(--font-mono);
-    font-size: 1rem;
-    font-weight: 200;
-}
-
-.chatgpt-tital {
-    background-color: transparent;
-    font-size: clamp(1rem, 3vw, 5rem);
-    font-weight: 900;
-    font-family: var(--font-mono);
     color: var(--text);
-    margin-bottom: 1rem;
-    max-width: 700px;
-}
-
-.chatgpt-tital2 {
-    background: linear-gradient(125deg, var(--gpt), var(--gem));
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.chatgpt-description {
-    margin-top: 1rem;
-    background-color: transparent;
-    max-width: 700px;
-    height: auto;
-    margin-bottom: 2.5rem;
-    font-family: var(--font-highlight);
-    color: var(--border-hi);
-    max-width: 500px;
+    border: 1px solid var(--text-muted);
 }
 
 /* Prompt text styling */
@@ -588,7 +684,7 @@ main {
 .section-about {
     width: 100%;
     height: auto;
-    background-color: var(--bg2);
+    background: var(--bg);
     color: #00e5c3;
     padding: 5rem;
 }
@@ -647,7 +743,6 @@ main {
 /* footer */
 
 footer {
-    border-top: 1px solid var(--gem);
     background-color: var(--bg);
     width: 100%;
     height: auto;
@@ -807,7 +902,7 @@ footer {
 
 .feedback-message-placeholder-box {
     width: 35rem;
-    height: 8rem;
+    height: 7rem;
     border-radius: 5px;
     font-size: 1rem;
     background-color: var(--bg2);
@@ -969,3 +1064,14 @@ footer {
     margin-right: 5px;
     color: var(--text-muted);
 }
+
+
+/* Resposive design */
+
+@media (min-width:1024px) and (max-width:1440px) {}
+
+@media (min-width:1024px) and (max-width:768px) {}
+
+@media (min-width:768px)and (max-width:425px) {}
+
+@media (min-width:425px) and (max-width:320px) {}

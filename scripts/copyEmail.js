@@ -1,28 +1,27 @@
 export function Copy() {
-    document.addEventListener('DOMContentLoaded', () => {
-        const copyButtons = document.querySelectorAll('.copy-button');
+    if (window._copyHandlerAttached) return;
+    window._copyHandlerAttached = true;
 
-        copyButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const promptTextElement = button.closest('.prompt-text').querySelector('p');
-                if (promptTextElement) {
-                    const textToCopy = promptTextElement.innerText;
+    document.addEventListener('click', (e) => {
+        const button = e.target.closest('.copy-button');
+        if (!button) return;
 
-                    navigator.clipboard.writeText(textToCopy).then(() => {
-                        // Update button content to show success
-                        const originalHTML = button.innerHTML;
-                        button.innerHTML = '<i class="fa-solid fa-check"></i>Copied!';
+        const promptTextElement = button.closest('.prompt-text')?.querySelector('p');
+        if (promptTextElement) {
+            const textToCopy = promptTextElement.innerText;
 
-                        // Revert back after 2 seconds
-                        setTimeout(() => {
-                            button.innerHTML = originalHTML;
-                        }, 2000);
-                    }).catch(err => {
-                        console.error('Failed to copy text: ', err);
-                    });
-                }
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                const originalHTML = button.innerHTML;
+                button.innerHTML = '<i class="fa-solid fa-check"></i> Copied!';
+
+                setTimeout(() => {
+                    button.innerHTML = originalHTML;
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy text: ', err);
             });
-        });
+        }
     });
-};
+}
 Copy();
+
