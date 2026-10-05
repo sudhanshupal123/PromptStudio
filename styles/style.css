@@ -284,8 +284,8 @@ nav {
 }
 
 
-.ThemeMode i{
-    width: clamp(1rem, 6vw, 1rem);
+.ThemeMode {
+    width: clamp(1rem, 5vw, 2rem);
     background: transparent;
     border-radius: 50%;
     cursor: pointer;
