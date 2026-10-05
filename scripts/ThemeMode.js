@@ -7,7 +7,6 @@ export function ThemeMode() {
             document.body.classList.add('lightMode');
             document.body.classList.remove('darkMode');
             ;
-
         } else {
             document.body.classList.remove('lightMode');
             document.body.classList.add('darkMode');
