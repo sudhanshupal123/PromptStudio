@@ -48,7 +48,7 @@ export function fetchPromptData() {
         promptsList.forEach((datas) => {
             PromptHTML += `<div class="prompt-box">
                     <div class="prompt-img">
-                        <img src="../gemini_img/${datas.Image}" alt="AI Generated Image" onerror="this.onerror=null; this.src='/gemini_img/${datas.Image}'">
+                        <img src="${'..'}/gemini_img/${datas.Image}" alt="AI Generated Image" onerror="this.onerror=null; this.src='/gemini_img/${datas.Image}'">
                         <a class="prompt-number">${datas.CardNo}</a>
                     </div>
                     <div class="prompt-text">
