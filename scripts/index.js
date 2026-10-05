@@ -153,3 +153,24 @@ function Email() {
     }
 }
 Email();
+
+function Humburder() {
+    const humburderOpen = document.querySelector('.humburderOpen');
+
+    const humburderClose = document.querySelector('.humburderClose');
+    humburderClose.addEventListener('click', () => {
+        humburderClose.style.display = 'none';
+        humburderOpen.style.display = 'flex';
+        const navLinks = document.querySelector('.navbar-links');
+        navLinks.style.display = 'flex';
+        navLinks.classList.add('navbar-links-humberger')
+    })
+
+    humburderOpen.addEventListener('click', () => {
+        humburderClose.style.display = 'flex';
+        humburderOpen.style.display = 'none';
+        const navLinks = document.querySelector('.navbar-links');
+        navLinks.style.display = 'none';
+    })
+}
+Humburder();
