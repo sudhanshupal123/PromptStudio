@@ -283,11 +283,9 @@ nav {
     cursor: pointer;
 }
 
-.lightmode{
-    font-size:clamp(1rem, 5vw, 2rem);
-        }
-.ThemeMode {
-    width: clamp(1rem, 5vw, 2rem);
+
+.ThemeMode i{
+    width: clamp(1rem, 6vw, 1rem);
     background: transparent;
     border-radius: 50%;
     cursor: pointer;
@@ -308,7 +306,7 @@ nav {
 
 .navbar-links a,
 .ThemeMode {
-    color: white;
+    color: var(--text);
 }
 
 .navbar-links a:hover {

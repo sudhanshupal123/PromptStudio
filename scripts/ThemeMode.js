@@ -1,20 +1,18 @@
 
 
 export function ThemeMode() {
-    const Modes = document.querySelectorAll('.ThemeMode');
+    const Modes = document.querySelectorAll('.ThemeMode i');
     function applyTheme(theme) {
         if (theme === 'light') {
             document.body.classList.add('lightMode');
             document.body.classList.remove('darkMode');
-            document.querySelector('.darkmode').display='flex';
-             document.querySelector('.lightmode').display='none';
-           
+            ;
+
         } else {
             document.body.classList.remove('lightMode');
             document.body.classList.add('darkMode');
-             document.querySelector('.darkmode').display='none';
-             document.querySelector('.lightmode').display='flex';
-           
+
+
         }
     }
 
