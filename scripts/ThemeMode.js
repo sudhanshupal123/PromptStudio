@@ -6,15 +6,15 @@ export function ThemeMode() {
         if (theme === 'light') {
             document.body.classList.add('lightMode');
             document.body.classList.remove('darkMode');
-            Modes.forEach(Mode => {
-                Mode.src = '/images/dark-mode.png';
-            });
+            document.querySelector('.darkmode').display='flex';
+             document.querySelector('.lightmode').display='none';
+           
         } else {
             document.body.classList.remove('lightMode');
             document.body.classList.add('darkMode');
-            Modes.forEach(Mode => {
-                Mode.src = '/images/light-mode.png';
-            });
+             document.querySelector('.darkmode').display='none';
+             document.querySelector('.lightmode').display='flex';
+           
         }
     }
 

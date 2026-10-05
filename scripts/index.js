@@ -24,7 +24,11 @@ function fetchMainData() {
             MainPageHTML += `<div class="prompt-box" data-idx="${i}" data-key="${promptKey}" data-card="${datas.CardNo}">
                     <div class="gemini-img1">
                         <a><img
-                                src="gemini_img/${datas.Image}" alt="${datas.Catogery}">
+<<<<<<< HEAD
+                                src="/gemini_img/${datas.Image}" alt="${datas.Catogery}">
+=======
+                                src="./gemini_img/${datas.Image}" alt="${datas.Catogery}">
+>>>>>>> 860e1d244251c3ff18274b06b574a4e0dcff4460
                             <div class="card-category">${datas.Catogery}</div>
                             <div class="card-num">${datas.CardNo}</div>
                         </a>

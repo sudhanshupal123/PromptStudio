@@ -283,14 +283,15 @@ nav {
     cursor: pointer;
 }
 
-
+.lightmode{
+    font-size:clamp(1rem, 5vw, 2rem);
+        }
 .ThemeMode {
     width: clamp(1rem, 5vw, 2rem);
     background: transparent;
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.5s;
-    border: 3px solid var(--text-faint);
 }
 
 .navbar-links-humberger {
@@ -314,9 +315,6 @@ nav {
     background: none
 }
 
-.ThemeMode:hover {
-    transform: rotate(360deg);
-}
 
 /* Main */
 main {

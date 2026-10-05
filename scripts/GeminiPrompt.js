@@ -38,6 +38,7 @@ export function fetchPromptData() {
     loadPromptJson().then(data => {
         const promptsList = data[selectedKey] || data['G01'] || Object.values(data)[0] || [];
         const createdPromptCount = Object.values(data).flat().length;
+        if (!createdPromptCount || createdPromptCount === null) return;
         localStorage.setItem('PromptCount', createdPromptCount);
         const pageNo = document.getElementById('pageNo');
         if (pageNo) {
@@ -48,7 +49,7 @@ export function fetchPromptData() {
         promptsList.forEach((datas) => {
             PromptHTML += `<div class="prompt-box">
                     <div class="prompt-img">
-                        <img src="../gemini_img/${datas.Image}" alt="AI Generated Image" onerror="this.onerror=null; this.src='/gemini_img/${datas.Image}'">
+                        <img src="${'..'}/gemini_img/${datas.Image}" alt="AI Generated Image" onerror="this.onerror=null; this.src='/gemini_img/${datas.Image}'">
                         <a class="prompt-number">${datas.CardNo}</a>
                     </div>
                     <div class="prompt-text">
