@@ -43,7 +43,12 @@ body {
     height: auto;
     background-color: var(--bg2);
 }
-
+.hero-contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* ===== GRID LINES BG ===== */
 .hero-contant::after {
     content: '';
@@ -233,7 +238,7 @@ main {
     text-wrap: wrap;
 }
 
-.prompt-text p:hover{
+.prompt-text p:hover {
     opacity: 1;
 }
 
@@ -291,8 +296,8 @@ main {
 
 .section-about {
     margin-top: 3rem;
-    width: 100%;
-    height: auto;
+    width: 100dvw;
+    height: 100dvh;
     background-color: var(--bg2);
     border-top: 1px solid var(--gem);
 }
@@ -352,16 +357,39 @@ main {
 /* copright */
 
 .copyright {
-    color: white;
+    color: var(--text);
     display: flex;
     justify-content: center;
     align-content: center;
     padding: 0.5rem;
     border-top: 0.5px solid var(--gem);
+    flex-direction: row;
 }
 
 .copyright-icon,
-.copyright-description {
-    margin-right: 5px;
+.copyright-description p{
+    gap: 5px;
     color: var(--text-muted);
+    font-size: clamp(0.5rem, 2vw, 1rem);
+}
+
+@media (max-width:1024px) {
+    .prompts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:786px) {
+    .prompts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width:426px) {
+    .prompts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

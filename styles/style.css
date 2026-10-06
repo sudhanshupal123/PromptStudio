@@ -822,7 +822,7 @@ footer {
 
 .social-media-links a {
     padding: 0px;
-    font-size: clamp(0.5rem, 2vw, 1.5rem);
+    font-size: clamp(1.3rem, 2vw, 2rem);
     color: var(--text);
     border-radius: 5px;
     transition: ease-in-out 0.15s;
@@ -831,7 +831,7 @@ footer {
 
 .social-media-links a :hover {
     margin: -1px 0px 0px 0px;
-    font-size: clamp(0.5rem, 2vw, 1.5rem);
+    font-size: clamp(1.3rem, 2vw, 1rem);
     transition: ease-in-out 0.15s;
     color: var(--gem);
     transform: scale(1.2);
@@ -1327,7 +1327,7 @@ footer {
     }
 
     .copyright {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         gap: 0.3rem;
     }
