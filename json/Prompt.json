@@ -348,5 +348,17 @@
             "CardNo": "G#15.05",
             "PromptText": "Hyper-realistic smartphone selfie of a Asian couple in a casual bedroom. Woman wearing a sunshine-red embroidered kurti,boy wearing a loose white shirt, and light blue baggy jeans; long dark hair partially covering her face, soft makeup with rosy blush and pink lips. Man beside her, looking at the camera. Soft natural window light, high selfie angle, candid intimate mood. Teal wall, yellow wardrobe in background. 4K, social-media aesthetic. Don't change My face. aspect ratio 4:5."
         }
+    ],
+    "G16": [
+        {
+            "Image": "Gemini_image_16.webp",
+            "CardNo": "G#16.01",
+            "PromptText": "Ultra-realistic 8K cinematic portrait of the same young South Asian man with medium-brown skin, thick voluminous wavy black hair, ameatly trimmed beard, standing barefoot on a rain-soaked temple courtyard with hands folded in sincere prayer before a towering black stone Lord Hanuman statue adorned with marigold sandyboy garlands. He wears a premium cream oversized knit shirt and loose black trousers."
+        },
+        {
+            "Image": "Gemini_image_16.1.webp",
+            "CardNo": "G#16.2",
+            "PromptText": "A high-quality studio portrait of a young Indian man holding a colorful Lord Ganesha idol during Ganesh Chaturthi celebration. The man is wearing a traditional patterned kurta with vibrant diamond-shaped prints, standing against a dramatic dark background with a soft red light glow behind him. Sandyboy He has a natural smile a small red tilak on his forehead, and is looking slightly upwards with devotion and joy. The Ganesha idol is highly, aspect ratio 4:5."
+        }
     ]
 }
