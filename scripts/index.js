@@ -11,8 +11,8 @@ async function loadMainData() {
     }
     throw new Error(`Error:${response.status}`);
 }
-
-document.querySelector('.createdPrompt').innerHTML = `${localStorage.getItem('PromptCount')}+`
+const createdPrompt = localStorage.getItem('PromptCount');
+document.querySelector('.createdPrompt').innerHTML = createdPrompt ? `${createdPrompt}+` : 0;
 
 function fetchMainData() {
     loadMainData().then(data => {

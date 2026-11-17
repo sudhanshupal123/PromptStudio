@@ -39,7 +39,11 @@ export function fetchPromptData() {
         const promptsList = data[selectedKey] || data['G01'] || Object.values(data)[0] || [];
         const createdPromptCount = Object.values(data).flat().length;
         if (!createdPromptCount || createdPromptCount === null) return;
-        localStorage.setItem('PromptCount', createdPromptCount);
+        const PromptCountL = localStorage.getItem('PromptCount');
+
+        if (createdPromptCount > PromptCountL) {
+            localStorage.setItem('PromptCount', createdPromptCount);
+        }
         const pageNo = document.getElementById('pageNo');
         if (pageNo) {
             const num = parseInt(selectedKey.replace(/\D/g, ''), 10);
