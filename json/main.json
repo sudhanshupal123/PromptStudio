@@ -21,7 +21,7 @@
     },
     {
         "Image": "Gemini_image_5.webp",
-        "Catogery": "Amine-Style-Image",
+        "Catogery": "Anime-With-You",
         "CardNo": "#I05"
     },
     {
@@ -56,7 +56,7 @@
     },
     {
         "Image": "Gemini_image_12.webp",
-        "Catogery": "Warrior",
+        "Catogery": "Hinduism",
         "CardNo": "#I12"
     },
     {
@@ -76,7 +76,17 @@
     },
     {
         "Image": "Gemini_image_16.webp",
-        "Catogery": "Hinduism",
+        "Catogery": "Warrior",
         "CardNo": "#I16"
+    },
+    {
+        "Image": "Gemini_image_17.webp",
+        "Catogery": "Adds",
+        "CardNo": "#I17"
+    },
+    {
+        "Image": "Gemini_image_18.webp",
+        "Catogery": "Anime-style",
+        "CardNo": "#I18"
     }
 ]
