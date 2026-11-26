@@ -42,6 +42,7 @@ export function fetchPromptData() {
         const PromptCountL = localStorage.getItem('PromptCount');
 
         if (createdPromptCount > PromptCountL) {
+            localStorage.removeItem('PromptCount');
             localStorage.setItem('PromptCount', createdPromptCount);
         }
         const pageNo = document.getElementById('pageNo');
